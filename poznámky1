@@ -1,0 +1,34 @@
+#načtení od uživatele 
+nacitaniTextu =input("zadejte: ")
+nacteniCisla =int(input("zadejte: "))
+
+#přetypování příklad na číslo
+cislo = int(input())
+pravdaNepravda = bool(input())
+
+#3 podmínky 
+if(cislo==10 or cislo==30):
+    print ("Číslo je 10 nebo 30")
+elif (cislo==15):
+    print ("číslo je 15")
+elif(cislo>=15):
+    print("Číslo je větší nebo rovno 15")
+else:
+    print("číslo je nějaké divné ")
+
+#logické operátory 
+if not(cislo==10):
+    print("Číslo není 10")
+if(cislo==15 and cislo==25):
+    print("Číslo je 15 nebo 25")
+if(cislo==10 or cislo==30):
+    print ("Číslo je 10 nebo 30")
+
+#vypsat
+print("ahoj")
+
+#vše okomentováno Riegerová Štěpánka 
+
+#git hub příkaz : git add *
+#               : git commit -m "text jak to chceme pojmenovat"
+#               : git push 
